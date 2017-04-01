@@ -1,0 +1,170 @@
+@import url(base.css);
+body{
+	background:#F4EAD5;
+	font-size:16px;
+	padding-bottom:1.8rem;
+}
+/*banner开始*/
+.banner{
+	width:100%;
+	height:3.52rem;
+	position:relative;
+}
+.banner img{
+	width:100%;
+}
+a{
+	display:block;
+}
+.back{
+	width:.69rem;
+	height:.69rem;
+	position:absolute;
+	top:.1rem;
+	left:.2rem;
+}
+img{
+	display:block;
+}
+.my{
+	width:2.15rem;
+	height:2.15rem;
+	position:absolute;
+	bottom:0;
+	transform:translate(.2rem,50%);
+}
+.introduce{
+	width:4.9rem;
+	height:auto;
+	position:absolute;
+	bottom:0;
+	right:0;
+	transform:translateY(65%);
+}
+.top{
+	display:block;
+	color:#fff;
+	font-weight:bold;
+	font-size:20px;
+	margin-bottom:.1rem;
+}
+.location{
+	width:100%;
+	height:auto;
+	float:left;
+	margin:.02rem 0;
+	font-size:14px;
+}
+.scales{
+	display:block;
+	width:.5rem;
+	height:.5rem;
+	float:left;
+}
+.location-left{
+	float:left;
+}
+.scale{
+	line-height:.5rem;
+}
+/*banner结束*/
+.no{
+	width:100%;
+	height:1.2rem;
+}
+.lists{
+	width:100%;
+	height:auto;
+	overflow:hidden;
+	/*display:flex;*/
+	/*flex-wrap:wrap;*/
+}
+.lists-top{
+	width:50%;
+	float:left;
+	height:2.6rem;
+	padding:.1rem;
+	box-sizing:border-box;
+	position:relative;
+}
+.lists-top img{
+	width:100%;
+}
+.nums{
+	position:absolute;
+	bottom:.2rem;
+	right:.2rem;
+	color:#7F7E7E;
+	font-size:14px;
+}
+.nums span{
+	font-size:26px;
+	color:#E41839;
+}
+.nums .block{
+	color:#252424;
+}
+.add{
+	width:.35rem;
+	height:.35rem;
+	border-radius:50%;
+	background:#E41839;
+	color:#fff;
+	font-size:12px;
+	position:absolute;
+	bottom:.6rem;
+	right:.2rem;
+}
+/*----------------------footer*/
+footer {
+  display: block;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+  width: 100%;
+  height: 1.55rem;
+  padding-bottom: .08rem;
+  padding-top: .2rem;
+  padding-left: .16rem;
+  padding-right: .16rem;
+  background: url(../../images/index/fjj_footer_bg.png) no-repeat center center / cover;
+  text-align: justify;
+  font-size: 0;
+}
+footer::after {
+  display: inline-block;
+  width: 100%;
+  height: 0;
+  line-height: 0;
+}
+footer li {
+  display: inline-block;
+  width: 1.79rem;
+  height: 1.3rem;
+  padding-top: .1rem;
+  font-size: .24rem;
+}
+footer li.active {
+  background: url(../../images/index/fjj_nav_bg_1.png) no-repeat center center / contain;
+}
+footer li.active a p {
+  color: #0D3606;
+}
+footer li a {
+  display: block;
+  width: auto;
+  height: auto;
+}
+footer li a .img {
+  width: 1rem;
+  height: .72rem;
+  margin: auto;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+footer li a p {
+  text-align: center;
+  color: #FFE6E6;
+}

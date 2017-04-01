@@ -1,0 +1,719 @@
+/*---------------重置样式*/
+body {
+  font-size: 16px;
+  background: #252424;
+}
+html,
+body,
+ul,
+li,
+input,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+dl,
+dd,
+dt {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+img {
+  border: none;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  transition: all 0s;
+}
+body {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+div.inner {
+  position: relative;
+  height: auto;
+}
+/*---------------------header*/
+header {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  width: 100%;
+  height: 1.63rem;
+  padding-top: .08rem;
+  padding-left: .16rem;
+  padding-right: .16rem;
+  background-image: url(../images/index/fjj_header_bg.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  -webkit-background-size: 100% 100%;
+  behavior: url(backgroundsize.min.htc);
+  text-align: justify;
+  transition: all .5s;
+}
+header::after {
+  display: inline-block;
+  width: 100%;
+  height: 0;
+  line-height: 0;
+}
+header .input_box_fjj {
+  position: absolute;
+  top: .63rem;
+  left: 0;
+  width: 100%;
+  height: 1.5rem;
+  background: url(../images/index/fjj_search_bg.png) no-repeat center center / contain;
+}
+header .input_box_fjj a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+header .input_box_fjj a.search {
+  width: .5rem;
+  height: .5rem;
+  transform: translate(-2.6rem, -0.1rem);
+  background-image: url(../images/index/fjj_search_icon.png);
+}
+header .input_box_fjj a.speak {
+  width: .35rem;
+  height: .35rem;
+  transform: translate(2rem, -0.2rem);
+  background-image: url(../images/index/fjj_speak_icon.png);
+}
+header .input_box_fjj input {
+  position: absolute;
+  top: .65rem;
+  left: 1.2rem;
+  background: transparent;
+  border: none;
+  color: #E0FC9F;
+  font-size: .24rem;
+  padding-left: 3em;
+  transform: rotateZ(-3deg);
+}
+header .input_box_fjj input:focus {
+  border: 0;
+  outline: none;
+}
+header .link_fjj {
+  text-align: justify;
+}
+header .link_fjj::after {
+  display: inline-block;
+  width: 100%;
+  height: 0;
+  line-height: 0;
+  content: '';
+}
+header .link_fjj a {
+  display: inline-block;
+  width: auto;
+  height: 1rem;
+}
+header .link_fjj a .icon {
+  width: .7rem;
+  height: .7rem;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
+header .link_fjj .address_fjj {
+  position: relative;
+}
+header .link_fjj .address_fjj .icon {
+  background-image: url(../images/index/fjj_address_icon.png);
+}
+header .link_fjj .address_fjj span.address {
+  position: absolute;
+  top: .2rem;
+  left: 100%;
+  padding-left: 1em;
+  width: auto;
+  white-space: nowrap;
+  background: transparent;
+  border-color: transparent;
+  color: #fefefe;
+}
+header .link_fjj .home_fjj .icon {
+  width: 1.12rem;
+  height: .9rem;
+  background-image: url(../images/index/fjj_home_icon.png);
+}
+header .link_fjj .my_fjj .icon {
+  background-image: url(../images/index/fjj_my_icon.png);
+}
+/*----------------------footer*/
+footer {
+  display: block;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+  width: 100%;
+  height: 1.55rem;
+  padding-bottom: .08rem;
+  padding-top: .2rem;
+  padding-left: .16rem;
+  padding-right: .16rem;
+  background-image: url(../images/index/fjj_footer_bg.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: justify;
+  font-size: 0;
+  transition: all .5s;
+}
+footer::after {
+  display: inline-block;
+  width: 100%;
+  height: 0;
+  line-height: 0;
+}
+footer li {
+  display: inline-block;
+  width: 1.79rem;
+  height: 1.3rem;
+  padding-top: .1rem;
+  font-size: .24rem;
+}
+footer li.active {
+  background: url(../images/index/fjj_nav_bg_1.png) no-repeat center center / contain;
+}
+footer li.active a p {
+  color: #0D3606;
+}
+footer li a {
+  display: block;
+  width: auto;
+  height: auto;
+}
+footer li a .img {
+  width: 1rem;
+  height: .72rem;
+  margin: auto;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+footer li a p {
+  text-align: center;
+  color: #FFE6E6;
+}
+/*---------------------banner_fjj*/
+section.banner_fjj {
+  padding-top: .78rem;
+  width: 100%;
+  background: #0067ff;
+}
+section.banner_fjj .swiper-container .swiper-wrapper .swiper-slide a {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 4.8rem;
+  overflow: hidden;
+}
+section.banner_fjj .swiper-container .swiper-wrapper .swiper-slide a img {
+  display: block;
+  width: 100%;
+}
+section.banner_fjj .swiper-container .swiper-wrapper .swiper-slide a div.info {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.8);
+  padding: .1rem;
+}
+section.banner_fjj .swiper-container .swiper-wrapper .swiper-slide a div.info p {
+  width: auto;
+  max-width: 6rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+section.banner_fjj .swiper-container .swiper-wrapper .swiper-slide a div.info p.title {
+  font-size: 14px;
+  color: #fff;
+}
+section.banner_fjj .swiper-container .swiper-wrapper .swiper-slide a div.info p.desc {
+  font-size: 12px;
+  color: #fefefe;
+}
+section.banner_fjj .swiper-container .swiper-pagination .swiper-pagination-bullet {
+  background: transparent!important;
+  border: 2px solid #fff!important;
+  opacity: 1;
+}
+section.banner_fjj .swiper-container .swiper-pagination .swiper-pagination-bullet-active {
+  background: #fff!important;
+}
+/*-------------------------q_link_fjj*/
+section.q_link_fjj {
+  background: #F4EAD5;
+}
+section.q_link_fjj ul.inner {
+  display: -webkit-box !important;
+  display: -webkit-flex !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -moz-justify-content: center;
+  justify-content: space-between;
+  -webkit-justify-content: space-between;
+  padding: .17rem;
+  padding-bottom: 0;
+}
+section.q_link_fjj ul.inner::after {
+  content: "";
+  width: 100%;
+  line-height: 0;
+  height: 0;
+  clear: both;
+}
+section.q_link_fjj ul.inner li.item {
+  flex: 0 0 32%;
+  -webkit-flex: 0 0 32%;
+  -webkit-box-flex: 1.0;
+  line-height: 1.5;
+  height: 2.7rem;
+  width: 32%;
+  padding: 4px;
+  background: #fff;
+  border-radius: 5px;
+  margin-bottom: .17rem;
+}
+section.q_link_fjj ul.inner li.item .bg {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+section.q_link_fjj ul.inner li.item .bg .inner {
+  width: 100%;
+  height: 100%;
+  padding-top: .3rem;
+  background: linear-gradient(135deg, transparent 15px, #fff 0);
+}
+section.q_link_fjj ul.inner li.item .bg .inner a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+section.q_link_fjj ul.inner li.item .bg .inner a .pic {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin: auto;
+}
+section.q_link_fjj ul.inner li.item .bg .inner a .pic img {
+  width: 100%;
+}
+section.q_link_fjj ul.inner li.item .bg .inner a p {
+  text-align: center;
+  font-size: 10px;
+  white-space: nowrap;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+/*------------------为您推荐recommend_fjj*/
+section.recommend_fjj {
+  background: #F4EAD5;
+  padding-left: .17rem;
+  padding-right: .17rem;
+}
+section.recommend_fjj div.header_fjj {
+  position: relative;
+  width: 100%;
+  height: 2rem;
+  background: url(../images/index/recommend/header_bg.png) no-repeat center center / contain;
+}
+section.recommend_fjj div.header_fjj img {
+  position: absolute;
+  right: 0;
+  top: .2rem;
+  height: 80%;
+}
+section.recommend_fjj ul.list {
+  padding-bottom: 1.5rem;
+}
+section.recommend_fjj ul.list li {
+  position: relative;
+  border-radius: 5px;
+  margin-bottom: 3px;
+  background: #fff;
+  min-height: 66px;
+}
+section.recommend_fjj ul.list li::after {
+  content: '';
+  display: block;
+  clear: both;
+  height: 0;
+  line-height: 0;
+}
+section.recommend_fjj ul.list li div.pic_area {
+  position: relative;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 5px;
+}
+section.recommend_fjj ul.list li div.pic_area img {
+  height: 100%;
+}
+section.recommend_fjj ul.list li div.pic_area .new_tap {
+  width: .44rem;
+  height: .44rem;
+  position: absolute;
+  top: -0.22rem;
+  left: -0.11rem;
+}
+section.recommend_fjj ul.list li div.info_area {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  min-height: 66px;
+  padding-top: .12rem;
+  padding-left: 1.44rem;
+  padding-right: .3rem;
+  padding-bottom: .12rem;
+}
+section.recommend_fjj ul.list li div.info_area p {
+  padding-left: .23rem;
+  width: auto;
+  max-width: 4rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+section.recommend_fjj ul.list li div.info_area p.title {
+  flex-shrink: 0;
+  font-size: 14px;
+  color: #191919;
+  line-height: 1.1;
+}
+section.recommend_fjj ul.list li div.info_area p.company {
+  flex-shrink: 0;
+  font-size: 12px;
+  color: #7A7774;
+}
+section.recommend_fjj ul.list li div.info_area p.line {
+  width: 100%;
+  max-width: 100%;
+  margin-top: .1rem;
+  margin-bottom: .1rem;
+  padding-left: .23rem;
+  background: url(../images/index/secret/line.png) repeat-x center center / cover;
+  background-clip: content-box;
+  height: 2px;
+  line-height: 0;
+}
+section.recommend_fjj ul.list li div.info_area div.link {
+  position: relative;
+  padding-left: .23rem;
+  font-size: 12px;
+}
+section.recommend_fjj ul.list li div.info_area div.link::after {
+  content: "";
+  display: block;
+  clear: both;
+  height: 0;
+  line-height: 0;
+}
+section.recommend_fjj ul.list li div.info_area div.link img {
+  width: .22rem;
+  vertical-align: middle;
+}
+section.recommend_fjj ul.list li div.info_area div.link .pinglun {
+  float: left;
+  color: #7A7774;
+  margin-right: .23rem;
+}
+section.recommend_fjj ul.list li div.info_area div.link .star {
+  float: left;
+  color: #7A7774;
+}
+section.recommend_fjj ul.list li div.info_area div.link .detail {
+  float: right;
+}
+section.recommend_fjj ul.list li div.info_area div.link .price {
+  position: absolute;
+  top: -0.6rem;
+  right: 0;
+  z-index: 22;
+  width: auto;
+  height: auto;
+}
+section.recommend_fjj ul.list li div.info_area div.link .price span.num {
+  font-size: .36rem;
+  color: #ff0000;
+}
+section.recommend_fjj ul.list li div.info_area div.link .price span.danwei {
+  font-size: .18rem;
+  color: #7a7774;
+}
+/*--------------------兼职宝典secret_fjj*/
+section.secret_fjj {
+  background: #F4EAD5;
+  padding-left: .17rem;
+  padding-right: .17rem;
+}
+section.secret_fjj div.header_fjj {
+  position: relative;
+  width: 100%;
+  height: 2rem;
+  background: url(../images/index/secret/header_bg.png) no-repeat center center / contain;
+}
+section.secret_fjj div.header_fjj .secret {
+  position: absolute;
+  left: 1.2rem;
+  top: .2rem;
+  height: 80%;
+}
+section.secret_fjj div.header_fjj .voice {
+  position: absolute;
+  left: .2rem;
+  top: .5rem;
+  height: 60%;
+}
+section.secret_fjj ul.list {
+  padding-bottom: 1.5rem;
+}
+section.secret_fjj ul.list li.item {
+  background: #fff;
+  padding: 4px;
+  border-radius: 5px;
+  height: 1.86rem;
+  min-height: 84px;
+  margin-bottom: 2px;
+}
+section.secret_fjj ul.list li.item div.bg {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+section.secret_fjj ul.list li.item div.bg a.inner {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, transparent 15px, #fff 0);
+  font-size: 0;
+}
+section.secret_fjj ul.list li.item div.bg a.inner div.pic_area {
+  display: inline-block;
+  width: 2.5rem;
+  height: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 1.5rem 1.5rem;
+  vertical-align: top;
+}
+section.secret_fjj ul.list li.item div.bg a.inner div.info_area {
+  position: relative;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  width: 4.4rem;
+  font-size: 16px;
+  padding-top: .1rem;
+  padding-bottom: .1rem;
+}
+section.secret_fjj ul.list li.item div.bg a.inner div.info_area p.title {
+  flex-shrink: 0;
+  display: -webkit-box;
+  font-size: 14px;
+  line-height: 1;
+  color: #1c1c1c;
+  width: auto;
+  max-width: 3rem;
+  height: 29px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+section.secret_fjj ul.list li.item div.bg a.inner div.info_area p.from {
+  flex-shrink: 0;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #7B7A7D;
+  width: auto;
+  max-width: 3rem;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+section.secret_fjj ul.list li.item div.bg a.inner div.info_area p.line {
+  margin: .1rem auto;
+  width: 100%;
+  height: 2px;
+  background: url(../images/index/secret/line.png) repeat-x center center / cover;
+}
+section.secret_fjj ul.list li.item div.bg a.inner div.links {
+  width: 100%;
+  color: #b4b4b4;
+  font-size: 12px;
+}
+section.secret_fjj ul.list li.item div.bg a.inner div.links img {
+  width: .28rem;
+  vertical-align: middle;
+}
+section.secret_fjj ul.list li.item div.bg a.inner div.links span {
+  vertical-align: middle;
+}
+section.secret_fjj ul.list li.item div.bg a.inner div.links div.time {
+  float: left;
+}
+section.secret_fjj ul.list li.item div.bg a.inner div.links div.feedback {
+  float: right;
+  margin-left: .2rem;
+}
+section.secret_fjj ul.list li.item div.bg a.inner div.links div.at {
+  float: right;
+}
+section.secret_fjj ul.list li.item div.bg a.inner div.new_tap {
+  position: absolute;
+  top: -0.1rem;
+  right: -0.1rem;
+  width: .43rem;
+  height: .43rem;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+section.secret_fjj ul.list li.item div.bg a.inner div.save {
+  position: absolute;
+  top: .4rem;
+  right: .4rem;
+  width: .43rem;
+  height: .43rem;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+section.secret_fjj ul.list li.more {
+  background: #fff;
+  padding: 4px;
+  border-radius: 5px;
+  height: 1.86rem;
+  margin-bottom: 2px;
+}
+section.secret_fjj ul.list li.more a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  line-height: 1.86rem;
+  color: #1c1c1c;
+  font-size: 16px;
+}
+/*----------------------sidebar 地址选择*/
+div.sidebar_fjj {
+  position: fixed;
+  top: 0;
+  left: -4.8rem;
+  width: 4.8rem;
+  height: 100%;
+  background: url(../images/index/sidebar/1.png) no-repeat center center / cover;
+  transition: all .5s;
+  overflow-y: scroll;
+}
+div.sidebar_fjj h1.title {
+  width: 100%;
+  height: auto;
+  font-size: 12px;
+  color: #A8D655;
+  background: url(../images/index/sidebar/head.png) no-repeat center center / cover;
+  padding: .233rem 0;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.8);
+}
+div.sidebar_fjj h1.title p {
+  text-align: center;
+}
+div.sidebar_fjj div.current {
+  padding: .2rem .5rem;
+}
+div.sidebar_fjj div.current img {
+  width: 1.11rem;
+  vertical-align: middle;
+}
+div.sidebar_fjj div.current p {
+  display: inline-block;
+  font-size: 12px;
+  color: #fff;
+  vertical-align: middle;
+}
+div.sidebar_fjj ul.address_list_fjj {
+  padding-left: .3rem;
+  padding-right: .3rem;
+}
+div.sidebar_fjj ul.address_list_fjj li {
+  padding-left: .35rem;
+  padding-right: .2rem;
+  height: .88rem;
+  line-height: .88rem;
+}
+div.sidebar_fjj ul.address_list_fjj li span {
+  float: left;
+  color: #fff;
+  font-size: 12px;
+  pointer-events: none;
+}
+div.sidebar_fjj ul.address_list_fjj li div.status {
+  float: right;
+  width: .44rem;
+  height: .44rem;
+  margin-top: .22rem;
+  background: url(../images/index/sidebar/add.png) no-repeat center center;
+  background-size: cover;
+  pointer-events: none;
+}
+div.sidebar_fjj ul.address_list_fjj li.active {
+  background: url(../images/index/sidebar/bg.png) no-repeat center center;
+  background-size: contain;
+}
+div.sidebar_fjj ul.address_list_fjj li.active span {
+  color: #13370C;
+}
+div.sidebar_fjj ul.address_list_fjj li.active div.status {
+  background: url(../images/index/sidebar/sure.png) no-repeat center center;
+  background-size: cover;
+}
+/*--为了sidebar而存在的遮罩*/
+div.mask_fjj {
+  display: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 99999;
+}
