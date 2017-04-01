@@ -1,0 +1,287 @@
+.body{
+	overflow: hidden;
+
+}
+/*遮罩*/
+	.job-index-slides-mask{
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		left: 0;
+		top: 0;
+		background: rgba(255,0,0,0);
+		z-index: 100000;
+		display: none;
+	}
+/*侧滑定位开始*/
+	.job-index-slides{
+		width: 4.84rem;
+		height: 100%;
+		background:#1F1E1E;
+		position:absolute;
+		z-index: 10000001;
+		top: 0;
+		left: -4.84rem;
+		transition:left 0.35s;
+	}
+	.job-index-slides .top{
+		height: 0.9rem;
+		width: 100%;
+		background: #252424;
+		padding: 0.15rem 0;
+	}
+	.job-index-slides .top p{
+		width: 100%;
+		height: 50%;
+		text-align: center;
+		font-size: 14px;
+		color: #A8D655;
+		line-height: 0.3rem;
+	}
+	.job-index-slides .middle{
+		background: url(../image/index-img/pdw.png)no-repeat 0.15rem 0.22rem;
+		background-size: 1rem!important;
+		height: 1.52rem;
+		width: 100%;
+		font-size:14px;
+		color: #fff;
+		line-height: 1.52rem;
+		padding:0 0.45rem;
+		text-align: right;
+	}
+	.job-index-slides ul{
+		width: 100%;
+		height: auto;
+		padding: 0 0.2rem 0 0.4rem;
+	}
+	.job-index-slides ul li{
+		width: 100%;
+		height: 0.74rem;
+		line-height: 0.74rem;
+		font-size: 12px;
+		color: #fff;
+		padding:0 0.3rem; 
+		position: relative;
+	}
+	.job-index-slides ul li span{
+		background: url(../image/index-img/add.png)no-repeat 0 0;
+		background-size: 0.44rem!important;
+		display:block;
+		width: 0.44rem;
+		height: 0.44rem;
+		border-radius: 50%;
+		float: right;
+		margin-top: 0.15rem;
+	}
+	.job-index-slides ul .hot{
+		color: #111;
+		background: url(../image/index-img/bj-dw.png) no-repeat 0 0/100%;
+	}
+	.job-index-slides ul .hot span{
+		background: url(../image/index-img/qr.png) no-repeat 0 0;
+		background-size: 0.44rem!important;
+	}
+/*侧滑定位结束*/
+/*====================================================*/
+/*头部开始*/
+	.job-index-head{
+		width: 100%;
+		height: auto;
+		padding:0.15rem 0.15rem 0;
+		position:absolute;
+		margin-top: -1rem;
+	}
+	.job-index-head .top{
+		width:100%;
+		height: 0.72rem;
+		position: relative;
+		line-height: 0.72rem;	
+		z-index: 10000;
+	}
+	.job-index-head>img{
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		z-index: 100;
+	}
+	/*定位开始*/
+	.job-index-head .left{
+		width: 1.44rem;
+		height:100%;
+		float: left;
+	}
+	.job-index-head .left>*,.job-index-head .right>a{
+		display: inline-block;
+		width: 50%;
+		height: 100%;
+		text-align: center;
+		float: left;
+		background-size:cover!important;
+	}
+	.job-index-head .left p{
+		font-size: 12px;
+		color:#fff;
+	}
+	.job-index-head .left>a,.job-index-head .right>a{
+		border-radius: 50%;
+	}
+	/*定位结束*/
+	/*logo开始*/
+	.job-index-head .logo{
+		width:0.96rem;
+		height: 100%;
+		position: absolute;
+		left: 50%;
+		margin-left: -0.36rem;
+		background-size:cover!important;
+	}
+	/*logo结束*/
+	/*个人中心开始*/
+	.job-index-head .right{
+		width: 0.72rem;
+		height:100%;
+		float: right;	
+	}
+	.job-index-head .right>a{
+		width: 100%;
+	}
+	/*个人中心结束*/
+	/*搜索框开始*/
+	.job-index-head	.search{
+			width: 6.56rem;
+			height: 1.47rem;
+			margin: -0.1rem auto;
+			position: relative;
+			z-index: 1000;
+		}
+	.job-index-head	.search,.search *{
+			background-size:100%!important;
+		}
+	.job-index-head	.search input{
+			background: transparent;
+			border: 0;
+			outline: none;
+			-webkit-transform:rotate(-3deg);
+			transform:rotate(-3deg);
+			width:3.6rem;
+			height:0.42rem;
+			line-height: 0.42rem;
+			position: absolute;
+			left:1.3rem;
+			top: 0.51rem;
+			color: #fff;
+		}
+	.job-index-head	.search>.sousuo{
+			position: absolute;
+			left:0.62rem;
+			top: 0.64rem;
+			width: 0.44rem;
+			height: 0.44rem;
+			display:block;
+			border-radius: 50%;
+		}
+	.job-index-head	.search>.yuyin{
+			right:1rem; 
+			position: absolute;
+			top: 0.48rem;
+			width: 0.44rem;
+			height: 0.44rem;
+			display:block;
+			border-radius: 50%;
+		}
+	/*搜素框结束*/
+/*头部结束*/
+/*========================================================*/
+/*banner开始*/
+	.job-index-banner{
+		height: 4.79rem;
+		width: 100%;
+		margin-top: 1rem;
+	}
+    .job-index-banner .swiper-slide a{
+    	display: block;
+    	width: 100%;
+    	height: 100%;
+    	background-size:cover!important;
+    }
+    .job-index-banner .swiper-pagination{
+    	left:6rem;
+    	bottom: 0.02rem;
+    }
+    .swiper-pagination-bullet{
+    	background: transparent;
+		border: 0.02rem solid #fff;
+		margin: 0.05rem;
+    }
+    .swiper-pagination-bullet-active{
+    	background:#fff;
+    }
+    .job-index-banner .nav{
+    	width: 100%;
+    	height: 0.9rem;
+    	background: rgba(0,0,0,0.8);
+    	position: absolute;
+    	left: 0;
+    	bottom: 0;
+    	z-index: 100000;
+    	padding: 0.15rem 0;
+    }
+    .job-index-banner .nav p{
+    	width:80%;
+    	padding:0 0.15rem;
+    	line-height: 0.3rem;
+    	height: 0.3rem;
+    	color: #fff;
+    	font-size: 12px;
+    	overflow: hidden;
+    	text-overflow: ellipsis;
+	  	white-space: nowrap;
+    }
+/*banner结束*/
+/*=============================================================*/
+/*底部开始*/
+	.job-index-footer{
+		width: 7.5rem;
+		height:1.58rem;
+		background:url(../image/index-img/tab.png) no-repeat 0 0/100%;
+		overflow: hidden;
+		position: fixed;
+		bottom:-3px;
+		z-index: 1000;
+	}
+	.job-index-footer li{
+		width: 1.7rem;
+		height:100%;
+		margin-top:0.3rem;
+		margin-left: 0.15rem;
+		float: left;
+		display: inline-block;
+		overflow: hidden;
+	}
+	.job-index-footer li a{
+		display:block;
+		width: 100%;
+		height: 100%;
+	}
+	.job-index-footer li img{
+		display:block;
+		width:0.7rem;
+		height: 0.7rem;
+		margin:0.1rem auto 0;
+		margin-top:;
+	}
+	.job-index-footer li span{
+		display: block;
+		font-size: 12px;
+		color:#fff;
+		text-align: center;
+		margin-top:0.01rem;
+	}
+	.job-index-footer li.hot{
+		background:url(../image/index-img/tabbj.png) no-repeat 0 0/100%;
+	}
+	.job-index-footer li.hot span{
+		color: #111;
+	}
+/*底部结束*/

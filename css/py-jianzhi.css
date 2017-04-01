@@ -1,0 +1,255 @@
+@import url(base.css);
+
+/*tab栏开始*/
+html,body{
+	width: 100%;
+	height: 100%;
+	background: #F4EAD5;
+}
+header {
+	height: 0.9rem;
+	width: 100%;
+	background: #252424;
+}
+header #left {
+	display: block;
+	height: 0.7rem;
+	width: 0.7rem;
+	margin-top: 0.1rem;
+	float: left;
+	margin-left: 0.15rem;
+	border-radius: 50%;
+	position: relative;
+}
+header #left img {
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+}
+header div {
+	text-align: center;
+	height: 0.7rem;
+	margin: 0 auto;
+	width: 3rem;
+	font-size: 16px;
+	color: #A8D655;
+}
+header div b {
+	display: block;
+	width: 100%;
+	font-size: 14px;
+	padding-top:0.1rem;
+	margin: 0;
+}
+header div span {
+	display: block;
+	font-size: 12px;
+	margin: 0;
+}
+/* 头部结束*/
+
+/*图片开始*/
+.dp{
+	width: 6.65rem;
+	height: 1.38rem;
+	/*background: red;*/
+	position: absolute;
+	margin-left: .45rem;
+	margin-top: -.23rem;
+}
+.dp img{
+	width: 100%;
+	height: 100%;
+}
+
+.shuju{
+	width: 6.65rem;
+	height: 5.12rem;
+	/*background: red;*/
+	margin: 1.3rem auto;
+}
+.shuju img{
+	width: 100%;
+	height: 100%;
+}
+.qu{
+	width: 7.16rem;
+	height: 2.55rem;
+	/*background: red;*/
+	/*position: absolute;*/
+	margin: -.9rem auto;
+}
+.qu img{
+	width: 100%;
+	height: 100%;
+}
+
+.lian{
+	width: 7.19rem;
+	height: 1.89rem;
+	/*background: red;*/
+	margin: .9rem auto;
+}
+.lian img{
+	width: 100%;
+	/*height: 100%;*/
+	margin-top: -1.2rem;
+	margin-left: -.1rem;
+}
+
+/*图片结束*/
+
+/*列表开始*/
+	#hot{
+		width: .43rem;
+		height: .43rem;
+		margin-left: -7.2rem;
+		margin-top: -.2rem;
+	}
+
+	.job-index-list {
+	  font-size: 14px;
+	  width: 100%;
+	  height: 5.5rem;
+	  margin-top: 0.1rem;
+	}
+	.job-index-list ul {
+	  height: 100%;
+	  width: 7.1rem;
+	  margin: 0 auto;
+	}
+	.job-index-list ul li {
+	  height: 1.35rem;
+	  width: 100%;
+	  background: #ffffff;
+	  border-radius: 0.13rem;
+	  margin-top: 0.05rem;
+	}
+	.job-index-list ul li #Img {
+	  height: 100%;
+	  width: 1.3rem;
+	  float: left;
+	  display: block;
+	}
+	.job-index-list ul li #Img img {
+	  height: 100%;
+	}
+	.job-index-list ul li .right {
+	  height: 100%;
+	  width: 5.8rem;
+	  float: left;
+	}
+	.job-index-list ul li .right .top {
+	  height: 1rem;
+	  width: 100%;
+	  border-bottom: 1px dashed #B8AE99;
+	}
+	.job-index-list ul li .right .top a {
+	  display: block;
+	  height: 100%;
+	  width: 3.8rem;
+	  float: left;
+	  color: #000;
+	  margin-left: 0.2rem;
+		padding-bottom: 0.1rem;
+
+	}
+	.job-index-list ul li .right .top a span {
+	  display: block;
+	  font-size: 10px;
+	  overflow: hidden;
+	  text-overflow: ellipsis;
+	  white-space: nowrap;
+	  width: 100%;
+		color: #605F5F;
+
+	}
+	.job-index-list ul li .right .top a b {
+	  width: 100%;
+		display: inline-block;
+		/*margin-top: -0.1rem;*/
+	     overflow: hidden;
+		margin:0;
+	    text-overflow: ellipsis;
+		padding-top: .2rem;
+	    white-space: nowrap;
+		font-size: 14px;
+	}
+	.job-index-list ul li .right .top #yuan {
+	  float: right;
+	  /*width: 1.4rem;*/
+	  height: 100%;
+	}
+	.job-index-list ul li .right .top #yuan span {
+	  display: block;
+	  height: 100%;
+	  width: 100%;
+	  font-size: 12px;
+	  line-height: 1.2rem;
+	  overflow: hidden;
+	  text-overflow: ellipsis;
+	  white-space: nowrap;
+	  padding-right: 0.05rem;
+	}
+	.job-index-list ul li .right .top #yuan span b {
+	  font-size: 18px;
+	  color: red;
+		margin-top: 0.2rem;
+		display:inline-block;
+	}
+	.job-index-list ul li .right .bottom {
+	  height: 0.4rem;
+	  width: 100%;
+	}
+	.job-index-list ul li .right .bottom .le {
+	  float: left;
+	  /*width: 70%;*/
+	  margin-left: 0.2rem;
+	  height: 100%;
+	}
+	.job-index-list ul li .right .bottom .le a {
+	  display: block;
+	  float: left;
+	  height: 100%;
+	  display: flex;
+	  align-items: center;
+	  margin-left: 0.1rem;
+	  color: #B7B7B7;
+	}
+	.job-index-list ul li .right .bottom .le a span {
+	  display: block;
+	  float: right;
+	  /*margin-top: -0.1em;*/
+	  margin-left: 0.1rem;
+		font-size: 12px;
+	}
+	.job-index-list ul li .right .bottom .le a img {
+	  height:0.3rem;
+	  width: 0.3rem;
+	  display: block;
+	  float: left;
+	}
+	.job-index-list ul li .right .bottom > a {
+	  display: block;
+	  float: right;
+	  height: 0.3rem;
+	  width: 0.3rem;
+	  margin-right: 0.2rem;
+	}
+	.job-index-list ul li .right .bottom > a img {
+	  height: 100%;
+	}
+/*列表结束*/
+
+/*尾部开始*/
+.footer{
+	width: 1.66rem;
+	height: .39rem;
+	/*background: red;*/
+	margin: 0 auto;
+}
+.footer img{
+	width: 100%;
+	height: 100%;
+}

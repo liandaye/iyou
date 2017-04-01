@@ -1,0 +1,323 @@
+html,
+body,
+ul,
+li,
+h3,
+h2 {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: 微软雅黑;
+}
+a {
+  text-decoration: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+img {
+  border: none;
+}
+html,
+body {
+  background: #F4EAD5;
+}
+/* 头部开始*/
+header {
+  height: 0.9rem;
+  width: 100%;
+  background: #252424;
+}
+header #left {
+  display: block;
+  height: 0.7rem;
+  width: 0.7rem;
+  margin-top: 0.1rem;
+  float: left;
+  margin-left: 0.15rem;
+  border-radius: 50%;
+  position: relative;
+}
+header #left img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+}
+header div {
+  text-align: center;
+  height: 0.7rem;
+  margin-left: 1.2rem;
+  margin-top: 0.1rem;
+  width: 3rem;
+  float: left;
+  font-size: 14px;
+  color: #A8D655;
+}
+header div b {
+  display: block;
+  width: 100%;
+  padding: 0;
+  font-size: 14px;
+  margin: 0;
+}
+header div span {
+  display: block;
+  font-size: 12px;
+  margin: 0;
+}
+header #right {
+  height: 0.7rem;
+  width: 0.7rem;
+  margin-top: 0.1rem;
+  float: right;
+  margin-right: 0.15rem;
+  border-radius: 50%;
+  position: relative;
+}
+header #right img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+}
+/* 头部结束*/
+.yi_show {
+  border-radius: 0.15rem;
+  height: 2.6rem;
+  width: 7.1rem;
+  background: #fff;
+  margin: 0.2rem auto;
+  position: relative;
+}
+.yi_show #new {
+  height: 0.5rem;
+  width: 0.5rem;
+  position: absolute;
+  top: -0.1rem;
+  right: -0.1rem;
+  border-radius: 50%;
+}
+.yi_show #new img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+}
+.yi_show #sanjiao1 {
+  height: 0.55rem;
+  width: 0.55rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.yi_show #sanjiao1 img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+}
+.yi_show .left {
+  height: 100%;
+  width: 2rem;
+  float: left;
+}
+.yi_show .left img {
+  display: block;
+  height: 1.5rem;
+  width: 1.5rem;
+  margin: 0.55rem auto;
+}
+.yi_show .right {
+  height: 100%;
+  width: 5.1rem;
+  float: left;
+  font-size: 14px;
+}
+.yi_show .right .top {
+  height: 0.9rem;
+  width: 4.5rem;
+  border-bottom: 1px dashed #E3E3E3;
+  margin-top: 0.3rem;
+  padding-right: 0.2rem;
+}
+.yi_show .right .top b {
+  display: block;
+  width: 100%;
+}
+.yi_show .right .top span {
+  font-size: 12px;
+  color: #7A7774;
+  width: 4rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.yi_show .right .bottom {
+  height: 1.4rem;
+  width: 100%;
+}
+.yi_show .right .bottom .bot-t {
+  height: 0.7rem;
+  width: 100%;
+}
+.yi_show .right .bottom .bot-t h2 {
+  display: block;
+  float: left;
+  font-size: 18px;
+  color: red;
+  margin-top: 0.1rem;
+}
+.yi_show .right .bottom .bot-t > span {
+  display: block;
+  float: left;
+  margin-left: 0.1rem;
+  margin-top: 0.2rem;
+  font-size: 12px;
+}
+.yi_show .right .bottom .bot-t ul {
+  height: 100%;
+  width: 2rem;
+  float: right;
+  margin-right: 0.1rem;
+}
+.yi_show .right .bottom .bot-t ul li {
+  width: 0.35rem;
+  height: 0.35rem;
+  float: left;
+  border-radius: 50%;
+  margin-left: 0.04rem;
+  margin-top: 0.2rem;
+}
+.yi_show .right .bottom .bot-t ul li img {
+  height: 100%;
+}
+.yi_show .right .bottom .bot-b {
+  height: 0.7rem;
+  width: 100%;
+  line-height: 0.7rem;
+}
+.yi_show .right .bottom .bot-b > a {
+  display: block;
+  height: 0.3rem;
+  width: 1.5rem;
+  float: left;
+  font-size: 12px;
+  color: #B2B2B2;
+}
+.yi_show .right .bottom .bot-b > a img {
+  margin-top: 0.2rem;
+  height: 0.3rem;
+  display: block;
+  float: left;
+  margin-right: 0.1rem;
+}
+.yi_show .right .bottom .bot-b .ri {
+  height: 0.3rem;
+  width: 3.5rem;
+  float: right;
+}
+.yi_show .right .bottom .bot-b .ri a {
+  display: block;
+  height: 0.3rem;
+  width: 1.5rem;
+  float: right;
+  font-size: 12px;
+  color: #B2B2B2;
+}
+.yi_show .right .bottom .bot-b .ri a img {
+  margin-top: 0.2rem;
+  height: 0.3rem;
+  display: block;
+  float: left;
+  margin-right: 0.1rem;
+}
+#xiang {
+  height: auto;
+  width: 7.1rem;
+  margin: 0.1rem auto 0;
+  font-size: 14px;
+  border-radius: 0.15rem;
+  padding: 0.2rem 0;
+  background: #fff;
+  position: relative;
+}
+#xiang #zhaopin {
+  height: 1.25rem;
+  width: 2.35rem;
+  position: absolute;
+  right: 0.1rem;
+  top: -0.3rem;
+}
+#xiang #sanjiao {
+  height: 0.4rem;
+  width: 0.4rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+#xiang #sanjiao img {
+  height: 100%;
+}
+#xiang ul {
+  height: auto;
+  width: 6.6rem;
+  margin-left: 0.25rem;
+}
+#xiang ul li {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+#xiang ul li img {
+  height: 0.35rem;
+  width: 0.35rem;
+  display: block;
+  float: left;
+  margin-top: 0.1rem;
+}
+#xiang ul li div {
+  height: auto;
+  width: 6.1rem;
+  float: left;
+  border-bottom: 2px dashed #E5E5E5;
+  margin-left: 0.15rem;
+  box-sizing: border-box;
+}
+#xiang ul li div p {
+  display: block;
+  margin: 0;
+  padding: 0.1rem 0;
+  font-size: 12px;
+}
+footer {
+  height: 1.5rem;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  font-size: 12px;
+  background: url(../image/footer.png) no-repeat 0 0;
+  background-size: 100%;
+}
+footer div {
+  height: 100%;
+  width: 0.8rem;
+  float: left;
+  margin-left: 0.8rem;
+  margin-top: 0.3rem;
+}
+footer div a {
+	overflow: hidden;
+  height: 0.7rem;
+  width: 0.7rem;
+}
+footer div a img {
+  width: 100%;
+  display: block;
+}
+footer div span {
+  display: block;
+  margin: 0;
+  color: #ffffff;
+  text-align: center;
+  width: 100%;
+}
